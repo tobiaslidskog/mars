@@ -1,0 +1,16 @@
+Mars - a sandbox project for configuring IDEs, builds, CI and more
+
+
+Prerequisites
+- java 1.5+
+- maven 3.0.3+
+
+Structure
+Mars is a multi module maven project, with 'root' as the root project.
+
+Building
+Run 'mvn install' in the root module to build everyting.
+
+IDE integration
+- IntelliJ IDEA: create a new project from a pom file, specifying the root folder as root.
+- Eclipse: not tried yet. Please send a pull request with updates and instructions as needed.
