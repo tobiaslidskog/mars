@@ -13,4 +13,4 @@ Run 'mvn install' in the root module to build everyting.
 
 IDE integration
 - IntelliJ IDEA: create a new project from a pom file, specifying the root folder as root.
-- Eclipse: not tried yet. Please send a pull request with updates and instructions as needed.
+- Eclipse: run: mvn eclipe:eclipse in root, choose Import and "Existing Maven Projects" and point out the root directory 
